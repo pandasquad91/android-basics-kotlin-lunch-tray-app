@@ -167,9 +167,9 @@ class OrderViewModel : ViewModel() {
         previousEntreePrice = 0.0
         previousSidePrice = 0.0
         previousAccompanimentPrice = 0.0
-        _subtotal.setValue(null)
-        _tax.setValue(null)
-        _total.setValue(null)
+        _subtotal.setValue(0.0)
+        _tax.setValue(0.0)
+        _total.setValue(0.0)
         _entree.setValue(null)
         _side.setValue(null)
         _accompaniment.setValue(null)
